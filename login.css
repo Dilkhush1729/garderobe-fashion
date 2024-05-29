@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.cross-icon {
+    background-color: #131313;
+    padding:5%;
+    text-align: end;
+}
+.cross-icon a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.login{
+    padding: 0% 30% 8% 35%;
+    background-color: #131313;
+}
+.login-card{
+    padding: 17% 5% 17% 16%;
+    background-color: #ffffff;
+    color: #131313;
+}
+.content{
+    margin-top: 2%;
+    font-size: 120%;
+    color: #13131379;
+}
+pre span{
+    cursor: pointer;
+    padding: 0.1% 1% 0.1% 4%;
+    background-color: #fff;
+    border: 1px solid #131313;
+}
+pre{
+    font-size: 130%;
+    color: #13131375;
+}
+input{
+    height: 40px;
+    width: 80%;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 5%;
+    width: 81%;
+    height: 40px;
+    background-color: #e8363c;
+    font-size: 110%;
+    border: 2px solid #e8363c;
+    color: #ffffff;
+}
+.cart{
+     text-align: center;
+     padding: 3%;
+}
+.e-icon{
+    text-align: center; 
+    font-size: 500%; 
+    color: #e8a136;
+   position: relative;
+   top: -19rem;
+   left: 5%;
+}
+.cart-para{
+    margin-top: -5%;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    font-family:  'Times New Roman', Times, serif;
+}
+.cart-para span{
+    color: #e8363c;
+}
+.b-para{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.return{
+    cursor: pointer;
+    padding: 1%;
+    font-size: 120%;
+     margin-top: 2%;
+     color: #fff;
+     background-color:#e8363c;
+     border: 2px solid #e8363c;
+     border-radius: 10px;
+}

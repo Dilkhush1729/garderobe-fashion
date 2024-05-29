@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="products.css">
+    <title>Products</title>
+</head>
+<body>
+    <!-- top most navigation-bar -->
+    <div class="top-nav-content">
+        <div class="content-1">
+            <p class="tn-content">
+                Don't miss our <a href=""> <u>holiday offer </u></a> - up to <strong> 50% OFF!</strong>
+            </p>
+        </div>
+        <div class="tn-nav-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+            <a href=""><i class="fa-solid fa-square-phone"></i></a>
+        </div>
+    </div>
+<!-- navigation-bar -->
+<div class="navigation-bar">
+    <a href="index.html"> 
+    <div class="logo">
+        <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/logo-dark.svg" alt="" class="logo-image">
+    </div></a>
+    <div class="nav-bar-content">
+      <ul>
+          <li class="nav-list"><a href="index.html">Home</a></li>
+          <li class="nav-list"><a href="products.html"><span>Products</span></a></li>
+          <li class="nav-list"><a href="services.html">Services</a></li>
+          <li class="nav-list"><a href="aboutus.html">About Us</a></li>
+          <li class="nav-list"><a href="news.html">News</a></li>
+          <li class="nav-list"><a href="contacts.html">Contact</a></li>
+      </ul>
+    </div>
+     <div class="nav-icons">
+        <a href="searchbar.html" class="hide"><i class="fa-solid fa-magnifying-glass" style="font-size: 90%;margin-left:15px"></i></a>
+        <a href="login.html" class="hide"><i class="fa-regular fa-user" style="margin-right: 46.5px;"></i></a>
+        <a href="products.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <a href="menu.html" class="menu"><i class="fa-solid fa-bars"></i></a>
+     </div>
+ </div>
+   <div class="container-1">
+    <p class="direction"><a href="index.html">Home</a> / Products</p>
+     <h1>Products</h1>
+   </div>
+    <div class="container-2">
+        <div class="left-part">
+              <span class="left-para">Filter By Price</span>
+              <!-- range slider -->
+              <div slider id="slider-distance">
+                <div>
+                  <div inverse-left style="width:70%;"></div>
+                  <div inverse-right style="width:70%;"></div>
+                  <div range style="left:30%;right:40%;"></div>
+                  <span thumb style="left:30%;"></span>
+                  <span thumb style="left:60%;"></span>
+                  <div sign style="left:30%;">
+                    <span id="value">30</span>
+                  </div>
+                  <div sign style="left:60%;">
+                    <span id="value">60</span>
+                  </div>
+                </div>
+                <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                var children = this.parentNode.childNodes[1].childNodes;
+                children[1].style.width=value+'%';
+                children[5].style.left=value+'%';
+                children[7].style.left=value+'%';children[11].style.left=value+'%';
+                children[11].childNodes[1].innerHTML=this.value;" />
+              
+                <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                var children = this.parentNode.childNodes[1].childNodes;
+                children[3].style.width=(100-value)+'%';
+                children[5].style.right=(100-value)+'%';
+                children[9].style.left=value+'%';children[13].style.left=value+'%';
+                children[13].childNodes[1].innerHTML=this.value;" />
+              </div>
+              <!-- price-range -->
+              <div class="price-range">
+                <p class="p-range">Price: $0 — $100 <a href=""><button class="range-btn">Filter</button></a></p>
+              </div>
+              <span class="rate-para">Top rated Products</span>
+              <div class="top-rated-products">
+                    <div class="rate-left">
+                        <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-3_optimized-150x150.webp" alt="">
+                        <div class="content-right">
+                         <span class="something">Qwartz Watch</span> <br>
+                          <span class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                          <p class="something-price">$ 50 <s>$ 80</s></p>
+                        </div>
+                    </div>
+                    <div class="rate-left">
+                        <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-7_optimized-150x150.webp" alt="">
+                        <div class="content-right">
+                         <span class="something">Black T-shirt</span> <br>
+                          <span class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                          <p class="something-price">$ 50 <s>$ 80</s></p>
+                        </div>
+                    </div>
+                    <div class="rate-left">
+                        <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-8_optimized-150x150.webp" alt="">
+                        <div class="content-right">
+                         <span class="something">Color Sneakers</span> <br>
+                          <span class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                          <p class="something-price">$ 50 <s>$ 80</s></p>
+                        </div>
+                    </div>
+                    <div class="rate-left">
+                        <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-10_optimized-150x150.webp" alt="">
+                        <div class="content-right">
+                         <span class="something">Snapback Cap</span> <br>
+                          <span class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
+                          <p class="something-price">$ 50 <s>$ 80</s></p>
+                        </div>
+                    </div>
+                    <div class="rate-left">
+                        <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-6_optimized-150x150.webp" alt="">
+                        <div class="content-right">
+                         <span class="something">Grey Shoes</span> <br>
+                          <span class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+                          <p class="something-price">$ 50 <s>$ 80</s></p>
+                        </div>
+                    </div>
+
+              </div>
+              <div class="new-card">
+                <span class="new-head">New Cloth <br> Technologies</span>
+                <p class="new-para">Mauris vitae ultricies leo integer malesuada. Odio tempor orci dapibus <br> ultrices in. <br><br>
+
+                    Egestas diam in arcu cursus euismod dictum purus viverra accumsan in nisl.</p>
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/Alice-W-signature.svg" alt="" class="sign" >
+                <p class="new-name">Alice Autumn, CEO</p>
+              </div>
+              <div class="new-card-2">
+                <span class="new-head">New Cloth <br> Technologies</span>
+                <p class="new-para">Mauris vitae ultricies leo integer malesuada. Odio tempor orci dapibus <br> ultrices in.  <br><br>
+
+                    Egestas diam in arcu cursus euismod dictum purus viverra accumsan in nisl.</p>
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/Alice-W-signature.svg" alt="" class="sign" >
+                <p class="new-name">Alice Autumn, CEO</p>
+              </div>
+        </div>
+        <div class="right-part">
+            <div class="products-card">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-7_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <button class="sales"><a href="" style="color: #ffffff;">sales!</a></button>
+                   <span class="product-name"> Black T-Shirt</span> 
+                   <p class="product-price">$50 <s style="color: #687279;">$80.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            <div class="products-card-2">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-2_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"> </p>
+                   <span class="product-name"> Brown Cap</span> 
+                   <p class="product-price">$ 25 </p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            <div class="products-card">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-8_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+                <button class="sales"><a href="" style="color: #ffffff;">sales!</a></button>
+                   <span class="product-name">Color Sneakers</span> 
+                   <p class="product-price">$50 <s style="color: #687279;">$80.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            <div class="products-card-2">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-1_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"> </p>
+                   <span class="product-name">Eligent Bag</span> 
+                   <p class="product-price">$ 50 </p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            <div class="products-card">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-6_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star" style="margin-left:4%;"></i></p>
+                 
+                   <span class="product-name" style="margin-left: 0.1%;"> Grey Shoes</span> 
+                   <p class="product-price">$50 <s style="color: #687279;">$80.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            <div class="products-card">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-3_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <button class="sales"><a href="" style="color: #ffffff;">sales!</a></button>
+                   <span class="product-name"> Quartz Watch</span> 
+                   <p class="product-price">$50 <s style="color: #687279;">$80.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            <div class="products-card">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-9_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"> </p>
+                <div class="nero"><button class="sales" style="margin-top: 9.3%;"><a href="" style="color: #ffffff;">sales!</a></button></div>
+                   <div class="sunglass"><span class="product-name"><p>Retro Sunglasses</p></span> 
+                   <p class="product-price">$50 <s style="color: #687279;">$80.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                   </div>
+                </div>
+            </div> 
+            <div class="products-card">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-10_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></p>
+                <button class="sales"><a href="" style="color: #ffffff;">sales!</a></button>
+                   <span class="product-name"> Snapback Cap</span> 
+                   <p class="product-price">$30 <s style="color: #687279;">$45.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div> 
+            
+            <div class="products-card">
+                <div class="hide">
+                <div class="pd-img">
+                <a href="" style="cursor: pointer;">
+                <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-4_optimized-300x348.webp" alt="" class="products"></a></div>
+                <div class="pd-content">
+                <p class="ratings"> </p>
+                <button class="sales" style="margin-top:9%;"><a href="" style="color: #ffffff;">sales!</a></button>
+                   <span class="product-name">Stonewall Sneakers</span> 
+                   <p class="product-price">$60 <s style="color: #687279;">$70.00</s></p>
+                   <button class="add-to-cart"><a href="">Add to cart</a></button>
+                </div>
+            </div>
+        </div> 
+        </div>
+    </div>
+    <div class="container-5">
+        <div class="about-us">
+            <span class="c12-heading">About Us</span>
+            <p class="c12-para">Mauris vitae ultricies leo integer malesuada. <br>
+               Odio tempor orci dapibus ultrices in. Egestas diam in arcu <br> cursus euismod. <br> <br>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+         <div class="c12-Account">
+           <span class="c12-heading">Account</span>
+           <a href=""><p class="c12-para-2">My Account</p></a>
+           <a href=""><p class="c12-para-2">My Wishlist</p></a>
+           <a href=""><p class="c12-para-2">My Cart</p></a>
+           <a href=""><p class="c12-para-2">Sign in</p></a>
+           <a href=""><p class="c12-para-2">Check out</p></a>
+         </div>
+         <div class="c12-Shipping">
+            <span class="c12-heading">Shipping</span>
+            <a href=""><p class="c12-para-2">New Products</p></a>
+            <a href=""><p class="c12-para-2">Best Sellers</p></a>
+            <a href=""><p class="c12-para-2">Manufacturers</p></a>
+            <a href=""><p class="c12-para-2">Suppliers</p></a>
+            <a href=""><p class="c12-para-2">Specials</p></a>
+         </div>
+         <div class="c12-Contact-Us">
+           <span class="c12-heading">Contact Us</span>
+             <p class="c12-para-3">Phone: (+63) 555 1212<br>
+               Fax: (+63) 555 0100<br><br>
+               
+               New York,<br>
+               96th Street, NY 10129</p><br>
+            <div class="hide">
+           <span class="c12-heading">Contact Us</span>
+           <p class="c12-para-3">Phone: (+63) 555 1212<br>
+               Fax: (+63) 555 0100<br> <br>
+               
+               New York,<br>
+               96th Street, NY 10129</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-6">
+       <div class="logo-bottom">
+           <img src="https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/logo-dark.svg" alt="" class="c13-image">
+       </div>
+       <div class="foot">
+           <p class="foot-para">Copyright © 2023 - WordPress Theme by <a href="">CreativeThemes</a></p>
+       </div>
+      </div>
+</body>
+</html>

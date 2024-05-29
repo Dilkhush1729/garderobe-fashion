@@ -1,0 +1,1189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Poppins';
+    
+ }
+  
+.top-nav-content{
+    width: 100%;
+    background-color: #131117;
+    padding: 0.5% 7% 0.5% 7%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.tn-content{
+    color: #ffffffb3;
+    font-size: 80%;
+}
+.tn-content a{
+    color: #ffffffb3;
+}
+.tn-content a:hover{
+    color: white;
+}
+.fa-brands{
+    margin-right: 15px;
+    font-size: 103%;
+    color: #687279;   
+}
+.fa-brands:hover{
+  color: #ffffff;
+  scale: 1.12;
+}
+.fa-solid{
+    margin-right: 15px;
+    font-size: 103%;
+    color: #687279;
+    border-radius: 100%;
+}
+.fa-solid:hover{
+   color: #ffffff;
+    scale: 1.12;
+}
+
+
+/* bootom navigation bar */
+
+.navigation-bar{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 6% 0.5% 7%;
+    border-bottom: 4px solid whitesmoke;
+}
+div.navigation-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    padding: 5% 0% 1% 0%;
+}
+.logo-image{
+    width: 56%;
+}
+.nav-bar-content{
+    padding: 1.5%;
+    margin-right: 12%;
+}
+.nav-bar-content ul li a{
+      text-decoration: none;
+      color: #131117B3;
+}
+.nav-bar-content ul li a:hover{
+    border-bottom: 2px solid #e8363c;
+    color: #131117;
+}
+.nav-bar-content ul li a span{
+    color: #131117;
+    border-bottom: 2px solid #e8363c;
+}
+.nav-list{
+    display: flex;
+    display: inline-block;
+    margin-left: 32px;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 115%;
+}
+.nav-icons{
+    font-size: 110%;
+    padding: 2%;
+}
+.nav-icons .fa-solid:hover{
+    color: #e8363c;
+}
+.nav-icons .fa-regular:hover{
+    color: #e8363c;
+    scale: 1.12;
+    border: 2px solid #e8363c;
+}
+/* login icon */
+.nav-icons .fa-regular{
+   border-radius: 100%;
+    padding: 2px;
+    color: #687279;
+    font-size: 75%;
+    border: 2px solid #687279;
+    margin-right: 37px;
+    margin-left: 37px;
+}
+/* container-2 */
+.container-2{
+    padding-bottom: 47%;
+    height: fit-content;
+    width: 100%;
+    background-color: #d9dadc;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     padding-bottom: 6%;
+     overflow: hidden;
+}
+.card-empty{
+    background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/home-hero-image_optimized.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 115%;
+}
+.card-1-content{
+    padding: 20% 0% 0% 13%;
+}
+.brand-new{ 
+    font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
+font-size: 450%;
+font-weight: 700;
+}
+.cc-para{
+    margin-top: 8%;
+    font-size: 100%;
+}
+.collection{
+    margin-top: 8%;
+    font-size: 110%;
+     font-family:  Arial, Helvetica, sans-serif;
+}
+.collection .fa-solid{
+    border-radius: 100%;
+    background-color: black;
+}
+.btn-1{
+   padding: 3% 4% 3% 4%;
+   margin-top: 8%;
+   background-color: #e8363c;
+   border: 2px solid #e8363c;
+}
+.btn-1:hover{
+    color: #ffffffdf;
+}
+ a .btn-1{
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+   font-size: 90%;
+   color: #ffffff;
+   font-weight: bold;
+   cursor: pointer;
+}
+/* container-3 */
+
+.container-3{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5%;
+    padding: 5% 8% 5% 8%;
+    background-color: #131117;
+}
+.help{
+    text-align: center;
+}
+.icon-head{
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 130%;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 3%;
+}
+.icon-para{
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 100%;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 2%;
+}
+.ugb-custom-icon{
+    fill: #ffffff;
+}
+ 
+/* container-4 */
+.container-4{
+ padding: 5% 5% 5% 5%;
+}
+.c4-main-head{
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 110%;
+font-weight: bolder;
+color: #131117B3;
+margin-left: 2.2%;
+}
+.c4-Heading{
+    font-size: 250%;
+    font-family:    "Cambria"," Cochin", Georgia, Times, 'Times New Roman', serif;
+     letter-spacing: 10px;
+     font-weight: bold;
+     margin-left: 2.1%;
+     margin-top: 1.7%;
+}
+.right-btn{
+    padding: 2%;
+    height: 70%;
+    width: 200%;
+    background-color: #ffffff;
+}
+.right-btn:hover{
+    background-color: #e8363c;
+    color: #ffffff;
+}
+.right-btn a{
+    color: #131117;
+    word-spacing: 3px;
+}
+.c4-btn{
+    margin-right: 8.5%;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.sales{
+    padding: 1.5%;
+    background-color: #e8363c;  
+    height: 7%; 
+    width:  auto;
+    text-align: center;
+    font-size: 81.25%;
+    position: relative;
+    top: -73%;
+    left: 0.7rem;
+    border-radius: 10%;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.sales-2{
+    padding: 1.5%;
+    background-color: #e8363c;  
+    height: 7%; 
+    width: auto;
+    text-align: center;
+    font-size: 81.25%;
+    position: relative;
+    top: -68%;
+    left: 0.7rem;
+    border-radius: 10%;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.new-arrivals{
+    height: auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2%;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.pd-img{
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+ }
+.pd-img img{
+    width: 100%;
+    transition: 1s;
+}
+.pd-img:hover img{
+    scale: 110%;
+}
+.fa-regular{
+    font-size: 109%;
+}
+.ratings .fa-solid{
+     color: rgb(240, 111, 25);
+     font-size: 90%;
+}
+.ratings .fa-regular{
+    color: rgb(240, 111, 25);
+     font-size: 90%;
+}
+.products-card:hover{
+    color: #d4141bdb;
+}
+.product-name{
+    font-size: 102%;
+    margin-left: -16.5%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.product-name-2{
+    font-size: 102%;
+    font-weight: bold;
+}
+.product-price{
+    margin-top: 2%;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color:  #131117B3;
+    font-weight: bold;
+}
+s{
+    font-size: 72%;
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+}
+.add-to-cart{
+    padding: 3.6%;
+    height: 8.5%;
+    width: auto;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    margin-top: 5%;
+    background-color: #e8363c;
+    border: 2px solid #e8363c;
+}
+.add-to-cart a{
+    color: #ffffff;
+}
+/* container-5 */
+.container-5{
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   column-gap: 2%;
+   padding : 6% 8.5% 6% 7%;
+   background-color: #131117;
+}
+ 
+.article-1{
+    background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-category-image-1_optimized.webp");
+    background-position: center;
+    width: 100%;
+    height: 31rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+ flex-direction: column;
+  justify-content: space-between;
+    
+}
+.article-2{
+background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-category-image-2_optimized.webp");
+    background-position: center;
+    width: 100%;
+height: auto;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+ justify-content: space-between;   
+}
+.article-3{
+background-position: center;
+background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-category-image-3_optimized.webp");
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+  justify-content: space-between;
+}
+.article-content{
+    height: 9rem;
+    width: 85%;
+    padding: 10% 5% 10% 10%;
+    background-color: #131117;
+}
+.article-content:hover{
+     transform: scalex(1.23);
+    background-color: #e8363c;
+    transition-duration: 0.7s;
+}
+.no-of-articles{
+  font-size: 100%;
+  font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+.article-head{
+  font-size: 200%;
+  margin-top: 10%;
+  font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+color: #ffffff;
+font-weight: bold;
+}
+/* .container-6 */
+.container-6{
+ padding: 6% 5% 6% 5%;
+}
+.check-out{
+  text-align: center;
+  font-size: 115%;
+  font-weight: 200;
+  color: #687279;
+}
+.c6-head{
+ text-align: center;
+ font-size: 250%;
+ font-family: "IBM Plex Mono", sans-serif;
+font-size: 40px;
+font-weight: 700;
+ font-weight:  bold;
+ letter-spacing: 5px;
+ margin-top: 2%;
+}
+     /* container-7 */
+
+.container-7{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+      padding: 1% 27% 3% 2%;
+}
+.left-card{
+    height: 60%;
+    width: 110%;
+    background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-sale-cta-background.svg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    padding: 20% 6% 5% 15%;
+    background-color: #131117;
+    color: #ffffff;
+     position: relative;
+      left: 12%;
+      top: 20%; 
+}
+.c7-card-head{
+  font-size: 200%;
+   color: #ffffff;
+   font-weight: bolder;
+   letter-spacing: 3px;
+   font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+}
+.c7-c-para{
+   font-size: 140%;
+   font-weight: 200;
+   font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+   margin-top: 10%;
+}
+.signature{
+margin-top: 10%;
+}
+.name{
+margin-top: 7%;
+font-size: 110%;
+font-weight: bold;
+font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+}
+.c7-image{
+    height: 100%;
+    width:  155%;
+}
+.container-8 .check-out{
+  font-size: 170%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .container-9 */
+.container-9{
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 2%;
+  padding: 3% 9% 7% 5% ;
+}
+.trending-products{
+ padding: 5%;
+}
+.pd-image{
+    width: 100%;
+    height: 50%;
+}
+.trending{
+   font-size: 145%;
+   font-weight: bold;
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    margin-top: 8%;
+    letter-spacing: 1px;
+}
+.trend-para{
+ font-size: 100%;
+ font-weight: bold;
+ color: #687279;
+ font-family:  Times, 'Times New Roman', serif;
+ margin-top: 3%;
+  
+}
+.date{
+   font-size: 85%;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    color: #687279;
+}
+
+.container-10{
+    padding: 0% 8% 3% 7%;   
+}
+.input-card{
+    background-position: center;
+    background-image: url("newsletter-container-image_optimized\ \(1\).jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 440px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 8%;
+     background-color: #131117;
+}
+.c10-head{
+ font-size: 250%;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #ffffff;
+}
+.c10-para{
+   font-size: 150%;
+   font-weight: bold;
+   color: #ffffff;
+   font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+   margin-top: 4%;
+}
+.input-text{
+    margin-top: 4%;
+}
+.input-text input{
+ height: 45px; width: 40%;
+ padding-left: 3%;
+ border: 1px solid #e8363c;
+}
+.input-text button{
+ height: 45px; width: 13%;
+ padding: 1%;  background-color: #e8363c;
+ border: 2px solid #e8363c;
+ margin-left: 0.5%;
+}
+   /* container-11 */
+
+.container-11{
+   display: flex;  display: grid;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 2%; padding: 6%;
+   background-color: #131117; color: #ffffff;
+}
+.container-11 .products-card .product-price{
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.final-sale{
+    padding: 0% 5% 5% 5%;
+}
+.final-price{
+   font-size: 150%; color: #e8363c;
+}
+.sale-head{
+  font-size: 200%; margin-top: 4%;
+}
+.sale-para{
+   font-size: 100%; margin-top: 3%;
+}
+.all-deals{
+    padding: 5% 14% 5% 14%;
+    margin-top: 15%;  background-color: #131117;
+    color: #ffffff; border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.all-deals:hover{
+    background-color: #e8363c;
+    color: #ffffff; transition-duration: 1s;
+}
+  /* contaaner-12 */
+.container-12{
+    display: flex; display: grid;
+    grid-template-columns: repeat(4,1fr);
+     padding: 7%  3% 8% 6%;
+}
+.about-us{
+    padding: 0% 0% 0% 0%;
+    width: 60%;
+}
+.c12-Account{
+    margin-left: 13%;
+}
+.c12-heading{
+   font-size: 150%;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.c12-para{
+   font-size: 110%;
+    color: #687279;
+    margin-top: 9%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c12-para-2{
+    font-size: 105%;
+    color: #687279; margin-top: 6%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c12-para-2:hover{
+    color: #e8363c;
+     transition-duration: 0.5s;
+}
+.c12-para-3{
+    font-size: 110%;
+    color: #687279;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+/* .container-13 */
+ 
+.c13-image{
+    width: 12%;
+}
+.logo-bottom{
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+.foot-para{
+    text-align: center;
+    padding: 3% 0% 3% 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+}
+.foot-para a{
+    color: #e8363c;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .menu{
+    display: none;
+ }
+
+ @media only screen and (max-width:1519px){
+    .hide{
+        display: none;
+    }
+ .top-nav-content{
+    display: none;
+ }
+ .navigation-bar{ 
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 6% 0.5% 7%;
+        border-bottom: 4px solid whitesmoke;
+        position: fixed;
+    }
+    .menu{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        right: -2rem;
+    }
+    .nav-icons .fa-solid{
+        position: relative;
+        right: 1.7rem;
+    }
+.nav-list{
+    display: none;
+}
+ }
+@media only screen and (max-width:769px){
+    .hide{
+        display: none;
+    }
+ .top-nav-content{
+    display: none;
+ }
+ .navigation-bar{ 
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 6% 0.5% 7%;
+        border-bottom: 4px solid whitesmoke;
+        position: fixed;
+    }
+    .menu{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        right: -2rem;
+    }
+    .nav-icons .fa-solid{
+        position: relative;
+        right: 1.7rem;
+    }
+.nav-list{
+    display: none;
+}
+    /* container-2 */
+    .container-2{
+        background-color: #d9dadc;
+        display: flex;
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         padding: 0% 0% 0% 0%;
+    }
+    .card-empty{
+         display: none;
+    }
+    .card-1-content{
+        padding: 40% 0% 15% 0%;
+        width: 100%;
+        height: fit-content;
+        background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/home-hero-image_optimized.webp");
+        background-size: cover;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .brand-new{ 
+        font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    font-weight: 700;
+    }
+    .brand-new br{
+        display: none;
+    }
+    .cc-para{
+        margin-top: 4%;
+        font-size: 100%;
+    }
+    .collection{
+         display: none;
+    }
+    .btn-1{
+       border: 2px solid #e8363c;
+    }
+    .container-3{
+        padding: 7% 8% 10% 8%;
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5%;
+        row-gap: 15%;
+    }
+    /* container-4 */
+    .container-4{
+     padding: 5% 5% 5% 5%;
+    }
+    .c4-main-head{
+    font-size: 110%;
+    margin-left: 2.2%;
+    }
+    .c4-Heading{
+        font-size: 250%;
+        letter-spacing: -0.1px;
+    }
+    .right-btn{
+         margin-left: -60%;
+    }
+    .new-arrivals{
+        padding-right: 2%;
+        height: auto;
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 5%;
+        column-gap: 16%; 
+    }
+    .pd-img{
+        width: 100%;
+    }
+    .pd-img img{
+        width:  100%;
+    }
+    .products-card:hover{
+        color: #d4141bdb;
+    }
+    /* container-5 */
+    .container-5{
+        margin-top: 5%;
+        width: 100%;
+        height: 2100px;
+       display: flex;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       padding : 6% 8.5% 6% 7%;
+       background-color: #131117;
+    }
+    .article-1{
+        width: 100%;
+        height: 31rem;
+    }
+    .article-2{
+        width: 100%;
+    height: 31rem;
+    }
+    .article-3{
+        width:  100%;
+    height: 31rem;
+    }
+    .article-content:hover{
+         transform: scalex(1.23);
+        background-color: #e8363c;
+        transition-duration: 0.7s;
+    }
+         /* container-7 */
+    .container-7{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 9%;
+    }
+    .left-card{
+        margin-left: -7%;
+        height: 677px;
+        width: 120%;
+        background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-sale-cta-background.svg");
+         background-repeat: no-repeat;
+         background-size: cover;
+        padding: 20% 6% 5% 20%; 
+         
+    }
+    .c7-image{
+        height: 700px;
+        width: 120%;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+    .container-8{
+        margin-top: 20%;
+    }
+    /* .container-9 */
+    .container-9{  
+     margin-left: -2%;
+      display: flex;
+      display: grid;
+      grid-template-columns: repeat(1,1fr); 
+      text-align: center;
+    }
+    .pd-image{
+        width: 105%;
+        height: 27rem;
+    }
+    .input-card{
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+        padding-top: 8%;
+    }
+    .c10-head{
+     font-size: 200%;
+    }
+    .c10-para{
+       font-size: 100%;
+    }
+    .input-text input{
+    width: 300px ;
+    }
+    .input-text button{
+     height: 45px; width: 100px;
+    }
+    .container-11{
+        width: 100%;
+        height: 1200px;
+       display: flex;  
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       row-gap: 5%;
+        text-align: center;
+    }
+    .container-11 .sales{
+        position: relative;
+        left: -22%;
+    }
+    .all-deals:hover{
+        background-color: #e8363c;
+        color: #ffffff; transition-duration: 1s;
+    }
+      /* contaaner-12 */
+    .container-12{
+        display: flex; 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+         row-gap: 5%;
+         column-gap: 17%;
+    }
+    .about-us{
+        width: auto;
+    }
+    .c12-Contact-Us{
+        margin-left: 9%;
+    }
+    .c12-para-2:hover{
+        color: #e8363c;
+         transition-duration: 0.5s;
+    }
+    /* .container-13 */
+     .container-13{
+        margin-top: 20%;
+     }
+     
+}
+
+@media only screen and (max-width:426px){
+    .hide{
+        display: none;
+    }
+    .top-nav-content{
+       display: none;
+    }
+    .navigation-bar{ 
+           width: 100%;
+           position: fixed;
+           display: flex;
+           justify-content: space-between;
+           padding: 4% 6% 0.5% 7%;
+           border-bottom: 4px solid whitesmoke;
+       }
+       .menu{
+         position: relative; 
+         top: -1.5rem;
+         left: 2.5rem;
+       }
+   .nav-list{
+       display: none;
+   }
+       /* container-2 */
+       .container-2{
+           background-color: #d9dadc;
+           display: flex;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+       }
+       .card-empty{
+            display: none;
+       }
+       .card-1-content{
+           background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/home-hero-image_optimized.webp");
+           height: fit-content;
+           width: 100%;
+           text-align: center;
+       }
+       .brand-new{ 
+        font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
+       font-size: 110%;
+       font-weight: 700;
+       }
+       .brand-new br{
+           display: none;
+       }
+       .cc-para{
+           margin-top: 4%;
+           font-size: 80%;
+       }
+       .collection{
+            display: none;
+       }
+       .btn-1{
+          border: 2px solid #e8363c;
+          font-size: 70%;
+       }
+       .container-3{
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+       }
+       /* container-4 */
+       .container-4{
+        margin-top: 10%;
+        width: 100%;
+        padding: 5% 5% 5% 5%;
+       }
+       .c4-main-head{
+        margin-bottom: 5%;
+       font-family:  Arial, Helvetica, sans-serif;
+       font-size: 80%;
+       font-weight: bolder;
+       color: #131117B3;
+       margin-left: 2.2%;
+       }
+       .c4-Heading{
+           font-size: 150%;
+           letter-spacing: -0.1px;
+       }
+       .right-btn{
+          margin-left: 21%;
+            width: 100%;
+            height: auto;
+            position: relative;
+            left: 1.3rem;
+       }
+       .sales{
+        left: -28%;
+       }
+       .sales-2{
+        left: -38%;
+       }
+       .new-arrivals{
+            margin-top: 15%;
+           height: auto;
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+           row-gap: 2%; 
+           padding-left: 1%;
+           text-align: center;
+       }
+        .ratings{
+            margin-top: 2%;
+        }
+        .pd-img{
+            width: 100%;
+            padding: 0%;
+        }
+        .pd-img img{
+            width: 100%;
+        }
+       .products{
+          width: 100%;
+       }
+       .products-card:hover{
+           color: #d4141bdb;
+       }
+       /* container-5 */
+       .container-5{
+           margin-top: 45%;
+           height: fit-content;
+           width: 100%;
+          display: flex;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          padding : 6% 8.5% 6% 7%;
+          background-color: #131117;
+       }
+       .article-1{
+           height: 370px;
+           width: 100%;
+           background-repeat: no-repeat;
+           background-size: cover;
+       }
+       .article-2{
+        width: 100%;
+       height: 370px;
+       background-repeat: no-repeat;
+       background-size: cover; 
+       }
+       .article-3{
+        width: 100%;
+       height: 370px;
+       background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .article-content:hover{
+            transform: scalex(1.23);
+           background-color: #e8363c;
+           transition-duration: 0.7s;
+       }
+            /* container-7 */
+       .container-7{
+          margin-top: 17%;
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+           row-gap: 9%;
+       }
+       .left-card{
+           margin-left: -7%;
+           height: 530px;
+           width: 130%;
+           background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-sale-cta-background.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           padding: 10% 6% 5% 8%; 
+           text-align: center;
+       }
+       .c7-card-head{
+         font-size: 170%;
+       }
+       .c7-c-para{
+        font-size: 110%;
+       }
+       .c7-image{
+           height: 500px;
+           width: 130%;
+           margin-left: 5%;
+           margin-top: 10%;
+       }
+       .container-8{
+           margin-top: 35%;
+       }
+       .c6-head{
+        font-size: 150%;
+       }
+       /* .container-9 */
+       .container-9{ 
+        margin-top: 5%; 
+        padding-right: 9%;
+         display: grid;
+         grid-template-columns: repeat(1,1fr); 
+       }
+       .pd-image{
+           width: 112%;
+           height: 17rem;
+       }
+       .input-card{
+           background-size: cover;
+           width: 105%;
+           height: 400px;
+           padding-top: 8%;
+           padding-right: 5%;
+           padding-left: 4%;
+           padding-top: 15%;
+       }
+       .c10-head{
+        font-size: 200%;
+       }
+       .c10-para{
+          font-size: 100%;
+       }
+       .input-text input{
+       width: 100%;
+       }
+       .input-text button{
+        margin-top: 5%;
+        height: 45px; width: 100%;
+       }
+       .container-11{
+        margin-top: 5%;
+        padding-left: 8%;
+           height: 2700px;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          row-gap: 5%;
+          
+       }
+       .container-11 .sales{
+        left: -30%;
+       }
+       .all-deals:hover{
+           background-color: #e8363c;
+           color: #ffffff; transition-duration: 1s;
+       }
+         /* contaaner-12 */
+       .container-12{
+        margin-top: 20%;
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+            row-gap: 5%;
+            column-gap: 17%;
+            text-align: center;
+       }
+       .about-us{
+           width: auto;
+       }
+       .c12-Contact-Us{
+           margin-left: -6px;
+       }
+       .c12-Account{
+        margin-left: -1%;
+       }
+       .c12-para-2:hover{
+           color: #e8363c;
+            transition-duration: 0.5s;
+       }
+       /* .container-13 */
+        .container-13{
+           margin-top: 50%;
+           font-size: 50%;
+           font-size: 90%;
+        }
+        .c13-image{
+            width: 30%;
+        } 
+   }

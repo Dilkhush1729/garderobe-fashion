@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+}
+.top-nav-content{
+    width: 100%;
+    background-color: #131117;
+    padding: 0.5% 7% 0.5% 7%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.tn-content{
+    color: #ffffffb3;
+    font-size: 80%;
+}
+.tn-content a{
+    color: #ffffffb3;
+}
+.tn-content a:hover{
+    color: white;
+}
+.fa-brands{
+    margin-right: 15px;
+    font-size: 103%;
+    color: #687279;   
+}
+
+.fa-brands:hover{
+  color: #ffffff;
+  scale: 1.12;
+}
+.fa-solid{
+    margin-right: 15px;
+    font-size: 103%;
+    color: #687279;
+    border-radius: 100%;
+}
+.fa-solid:hover{
+   color: #ffffff;
+    scale: 1.12;
+}
+/* bootom navigation bar */
+.navigation-bar{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 6% 0.5% 7%;
+    border-bottom: 4px solid whitesmoke;
+}
+div.navigation-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    padding: 5% 0% 1% 0%;
+}
+.logo-image{
+    width: 56%;
+}
+.nav-bar-content{
+    padding: 1.5%;
+    margin-right: 12%;
+}
+.nav-bar-content ul li a{
+      text-decoration: none;
+      color: #131117B3;
+}
+.nav-bar-content ul li a:hover{
+    border-bottom: 2px solid #e8363c;
+    color: #131117;
+}
+.nav-bar-content ul li a span{
+    color: #131117;
+    border-bottom: 2px solid #e8363c;
+}
+.nav-list{
+    display: flex;
+    display: inline;
+    margin-left: 32px;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 115%;
+}
+.nav-icons{
+    font-size: 110%;
+    padding: 2%;
+}
+.nav-icons .fa-solid:hover{
+    color: #e8363c;
+}
+.nav-icons .fa-regular:hover{
+    color: #e8363c;
+    scale: 1.12;
+    border: 2px solid #e8363c;
+}
+/* login icon */
+.nav-icons .fa-regular{
+   border-radius: 100%;
+    padding: 2px;
+    color: #687279;
+    font-size: 75%;
+    border: 2px solid #687279;
+    margin-right: 37px;
+    margin-left: 37px;
+    
+}
+/* container-1 */
+.container-1{
+   padding: 10% 16% 20% 10%;
+   background-color: #f1f1f1;
+   text-align: center;
+}
+.direction a{
+    text-decoration: none;
+    color:#687279;
+    font-size: 90%;
+}
+.direction{
+    font-size: 90%;
+}
+.container-1 h1{
+ margin-top: 2%;
+  font-size: 450%;
+  letter-spacing: 2px;
+  font-family:  "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-2{
+   padding: 0% 7.9% 0% 6%;
+}
+.black-card{
+    background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/shop-sale-cta-background.svg");
+    background-color: #131117;
+    height: 390px;
+    width: 100%;
+}
+.c2-card{
+    height: 100%;
+    width: 100%;
+    display: flex;display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #ffffff;
+    padding: 5%;
+    background-color: #131117e0;
+    margin-top: -10%;
+    
+}
+.card-para{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5%;
+    column-gap: 5%;
+}
+.shoe img{
+     margin-top: -26%;
+      height: 449px;
+}
+.card-head{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.card-content{
+    width: 100%;
+    padding: 7% 0% 3% 3%;
+}
+
+.container-3{
+  text-align: center;
+  padding: 10% 6.7% 10% 4.5%;
+}
+.c3-head{
+    font-size: 115%;
+  color: #687279;
+}
+.c3-subhead{
+margin-top: 1%;
+font-size: 300%;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700;
+letter-spacing: 2px;
+word-spacing: 5px;
+}
+.team-members{
+    width: 100%;
+    padding: 0% 2% 0% 2%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 5%;
+  text-align: center;
+  margin-top: 3%;
+}
+.member img{
+    width: 100%;
+}
+.member p{
+ font-size: 150%;
+ font-weight: 800;
+ font-family: 'Courier New', Courier, monospace;
+ margin-top: 5%;
+ margin-bottom: 3%;
+}
+.member span{
+  color: #e8363c;
+  font-weight: 96%;
+  font-weight: 500;
+}
+
+.container-4{
+    display: flex;display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0% 8% 0% 7%;
+}
+.c4-left img{
+    height: 100%;
+    width:  115%;
+}
+.c4-right{
+    padding: 20% 5% 25% 15%;
+    height: 551px;
+    width: 100%;
+    background-color: #131117;
+    color: #ffffff;
+    position: relative;
+    top: 5rem;
+}
+.c4-head{
+    font-size: 200%;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+.c4-para{
+    margin-top: 7%;
+}
+.c4-right img{
+    width: 39%;
+}
+.name{
+    margin-top: 18%;
+    display: flex; 
+}
+.bottom-para{
+    color: #e8363c;
+    font-size: 120%;
+    font-weight: 500;
+    margin-left: -37%;
+}
+.bottom{
+    padding-top: 2%;
+}
+.container-5{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3% 5% 0% 7%;
+      background-color: #f7f6f5;
+      margin-top: 7%;
+}
+.shoe-img img{
+    background-position: center;
+    width: 100%;
+    height: 587px;
+}
+.shop-now{
+    padding-right: 5%;
+}
+.c5-head{
+    margin-top: 27%;
+    font-size: 300%;
+    color: #131117;
+    letter-spacing: 2px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.c5-para{
+margin-top: 7%;
+}
+.btn{
+    margin-top: 14%;
+     width: 25%;
+     height: 8%;
+     font-size: 120%;
+     font-weight: 200;
+     background-color: #e8363c;
+     color: #f7f6f5;
+     cursor: pointer;
+     border: 2px solid #e8363c;
+}
+
+.container-7{
+    padding: 0% 8% 3% 7%;  
+    margin-top: 7%; 
+}
+.bg-image{
+    background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/about-us-newsletter-background_optimized.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 486px;
+}
+.input-card{
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 8%;
+      background-color: #131117b5;
+      width:  100%;
+    height: 100%;
+}
+.c7-head{
+ font-size: 250%;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #ffffff;
+}
+.c7-para{
+    padding: 0% 5% 0% 5%;
+   font-size: 150%;
+   font-weight: bold;
+   color: #ffffff;
+   font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+   margin-top: 4%;
+}
+.input-text{
+    margin-top: 4%;
+}
+.input-text input{
+ height: 45px; 
+ width: 60% ;
+ padding-left: 3%;
+ border: 1px solid #e8363c;
+}
+.input-text button{
+ height: 45px; width: 20%;
+ padding: 1%;  background-color: #e8363c;
+ border: 2px solid #e8363c;
+ margin-left: 0.5%;
+ cursor: pointer;
+}
+.container-8{
+    display: flex; display: grid;
+    grid-template-columns: repeat(4,1fr);
+     padding: 7%  3% 8% 6%;
+     margin-top: 7%;
+     background-color: #fafafa;
+}
+.about-us{
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+}
+.c8-Account{
+    margin-left: 13%;
+}
+.c8-heading{
+   font-size: 150%;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.c8-para{
+   font-size: 110%;
+    color: #687279;
+    margin-top: 9%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c8-para-2{
+    font-size: 105%;
+    color: #687279; margin-top: 6%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c8-para-2:hover{
+    color: #e8363c;
+     transition-duration: 0.5s;
+}
+.c8-para-3{
+    font-size: 110%;
+    color: #687279;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+/* .container-6 */
+.container-9{
+    background-color: #fafafa;
+}
+.c9-image{
+    width: 12%;
+}
+.logo-bottom{
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+.foot-para{
+    text-align: center;
+    padding: 3% 0% 3% 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+}
+.foot-para a{
+    color: #e8363c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    display: none;
+ }
+ @media only screen and (max-width:1519px){
+    .hide{
+        display: none;
+    }
+ .top-nav-content{
+    display: none;
+ }
+ .navigation-bar{ 
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 6% 0.5% 7%;
+        border-bottom: 4px solid whitesmoke;
+        position: fixed;
+    }
+    .menu{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        right: -2rem;
+    }
+    .nav-icons .fa-solid{
+        position: relative;
+        right: 1.7rem;
+    }
+.nav-list{
+    display: none;
+}
+ }
+ @media only screen and (max-width:1235px){
+    .card-para{
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 0%;
+        row-gap: 1%;
+    }
+ }
+ @media only screen and (max-width:1040px){
+    .shoe img{
+        width: 100%;
+        margin-top: -15%;
+    }
+    .black-card{
+        height: fit-content;
+    }
+      .c2-card{
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 0%;
+        row-gap: 2%;
+      }
+      .c4-left img{
+        width: 100%;
+      }
+      .container-5{
+        margin-top: 17%;
+      }
+      .container-4{
+        width: 100%;
+        height: fit-content;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 0%;
+      }
+ }
+ @media only screen and (max-width:769px){
+    .hide{
+        display: none;
+    }
+ .top-nav-content{
+    display: none;
+ }
+ .navigation-bar{ 
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 6% 0.5% 7%;
+        border-bottom: 4px solid whitesmoke;
+       
+    }
+    .menu{
+        display: block;
+        position: relative;
+        top: -1.6rem;
+        right: -2rem;
+    }
+    .nav-icons .fa-solid{
+        position: relative;
+        right: 1.7rem;
+    }
+.nav-list{
+    display: none;
+}
+.container-1{
+    height: 350px;
+    width: 100%;
+}
+.container-1 h1{
+    font-size: 300%;
+}
+ .black-card{
+     height: fit-content;
+     width: 100%;
+ }
+ .c2-card{
+    display: grid;
+     grid-template-columns: repeat(1,1fr);  
+ }
+ .shoe img{
+    width: 100%;
+    height: 500px;
+ }
+ .container-3{
+    text-align: center;
+  }
+  .team-members{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 2%;
+  }
+  .member{
+    width: auto;
+  }
+  .member img{
+    width: 100%;
+  }
+  .container-4{
+    margin-top: 25%;
+   display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.c4-left img{
+    height: 100%;
+    width:  100%;
+}
+.c4-right{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 1rem; 
+}
+.container-5{
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 5%;
+    text-align: center;
+}
+.shoe-img img{
+    width: 100%;
+    height: 280px;
+    margin-top: 7%;
+}
+.bg-image{
+    margin-top: 7%;
+    width: 100%;
+    height: 450px;
+}
+.input-card{
+    width: 100%;
+    padding-top: 15%;
+}
+.input-card input{
+    width: 60%;
+}
+.input-text button{
+    margin-top: 3%;
+}
+.container-8{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     padding: 7%  10% 5% 6%;
+     background-color: #fafafa;
+     column-gap: 30%;
+     row-gap: 3%;
+}
+.about-us{
+    padding-right: 9%;
+    width: 100%;
+    position: relative;
+    left: -4%;
+}
+.about-us{
+    margin-left: 5%;
+}
+.c8-Account{
+    margin-left: -2.5%;
+}
+.c9-image{
+    width: 20%;
+}
+.foot-para{
+    font-size: 80%;
+}
+ }
+ @media only screen and (max-width:426px){
+    .hide{
+        display: none;
+    }
+ .top-nav-content{
+    display: none;
+ }
+ .navigation-bar{ 
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 6% 0.5% 7%;
+        border-bottom: 4px solid whitesmoke;
+       
+    }
+    .menu{
+        display: block;
+        position: relative;
+        top: -1.6rem;
+        right: -2rem;
+    }
+    .nav-icons .fa-solid{
+        position: relative;
+        right: 1.7rem;
+    }
+.nav-list{
+    display: none;
+}
+.container-1{
+    height: 350px;
+    width: 100%;
+}
+.container-1 h1{
+    font-size: 300%;
+}
+ .black-card{
+     height: fit-content;
+     width: 100%;
+     padding-bottom: 3%;
+ }
+ .c2-card{
+    width: 100%;
+    display: grid;
+     grid-template-columns: repeat(1,1fr);    
+ }
+ .shoe img{
+    width: 100%;
+    height: 500px;
+ }
+ .container-3{
+    text-align: center;
+  }
+  .team-members{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 2%;
+  }
+  .member{
+    width: 100%;
+  }
+  .member img{
+    width: 100%;
+  }
+  .container-4{
+    margin-top: 25%;
+   display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.c4-left img{
+    height: 100%;
+    width:  100%;
+}
+.c4-right{
+    height: fit-content;
+    width: 100%;
+    padding-right: 8%;
+}
+.c4-head{
+   font-size: 200%;
+}
+.c4-para{
+    font-size: 100%;
+}
+.container-5{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 5%;
+    text-align: center;
+}
+.c5-head{
+    font-size: 120%;
+}
+.btn{
+    width: 40%;
+}
+.shoe-img img{
+    width: 100%;
+    height: 280px;
+    margin-top: 7%;
+}
+.container-7{
+    height: fit-content;
+}
+.bg-image{
+    margin-top: -8%;
+    width: 100%;
+    height: 450px;
+}
+.input-card{
+    width: 100%;
+    margin-top: 15%;
+    padding: 15% 10% 0% 10%;
+}
+.c7-head{
+    font-size: 150%;
+}
+.c7-para{
+    font-size: 100%;
+}
+.input-card input{
+    margin-top: 5%;
+    width: 80%;
+    height: 30px;
+}
+.input-text button{
+    margin-top: 3%;
+    width: 80%;
+    height: 30px;
+}
+.container-8{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+     padding: 7%  10% 5% 6%;
+     background-color: #fafafa;
+     column-gap: 0%;
+     row-gap: 3%;
+     text-align: center;
+}
+.about-us{
+    width: 100%;
+   position: relative;
+    left: 1.5rem;
+}
+.about-us{
+    margin-left: 5%;
+}
+ .container-9{
+    margin-top: 15%;
+ }
+ }
